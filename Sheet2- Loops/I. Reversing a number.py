@@ -5,3 +5,7 @@ while n != 0 :
     rev = rev * 10 + r
     n = n // 10
 print("Reversed number =" , rev)
+#-----------------------------------------------------------------------------------------------------------------------------------------
+#Other Solution
+n = input("Enter a number to reverse:")
+print(n[::-1])
