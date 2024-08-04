@@ -25,3 +25,26 @@ if isOdd(x) == True and BinaryConverting(x) == True:
 else:
     print("NO")
 #end of the main method
+#====================================================================================================================================================
+# Other Solution 
+# Checking if it is odd or not 
+def isOdd(n):
+    # Checking if it is odd or not 
+    if n % 2 != 0 :
+        return True
+    else:
+        return False
+# Checking for the binary reprentation
+def isPalindromeBinaryRep(n):
+    s = bin(n)
+    s2 = s[2::]
+    if s2 == s2[::-1]:
+        return True
+    else:
+        return False
+n = int(input())
+if isOdd(n) == True and isPalindromeBinaryRep(n) == True:
+    print("YES")
+else:
+    print("NO")
+    
