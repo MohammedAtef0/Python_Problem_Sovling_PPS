@@ -1,3 +1,17 @@
+# 1st Solution 
+# Define the Function
+def NewArr(a,b):
+    for i in a:
+        print(i, end=' ')
+    for i in b:
+        print(i, end=' ')
+# Implement the function in main
+n = int(input())
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
+NewArr(b,a)
+# ==================================================================================================================
+# 2nd Solution 
 def NewArray( a=[] , b=[]):
     for i in b:
         print(i , end=" ")
@@ -15,3 +29,4 @@ for i in range (n):
     b.append(y)
 #filling b List
 NewArray(a, b)
+# ==================================================================================================================
